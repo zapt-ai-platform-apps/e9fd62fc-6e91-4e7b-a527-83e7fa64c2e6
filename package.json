@@ -1,25 +1,37 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
-    "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
-    "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "serve": "vite preview",
-        "start": "vite --host"
-    },
-    "dependencies": {
-        "@sentry/browser": "^8.41.0",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    },
-    "devDependencies": {
-        "@vitejs/plugin-react": "^4.3.4",
-        "autoprefixer": "^10.4.20",
-        "postcss": "^8.4.47",
-        "tailwindcss": "^3.4.13",
-        "vite": "^5.4.7",
-        "@sentry/vite-plugin": "^2.23.0"
-    }
+  "name": "ai-real-estate-app",
+  "version": "1.0.0",
+  "description": "Advanced AI-powered real estate mobile app",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "start": "vite --host"
+  },
+  "dependencies": {
+    "@sentry/browser": "^8.41.0",
+    "@zapt/zapt-js": "^1.0.22",
+    "@supabase/auth-ui-react": "^0.4.7",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "framer-motion": "^10.16.4",
+    "leaflet": "^1.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.15.0",
+    "recharts": "^2.8.0",
+    "swiper": "^10.2.0",
+    "axios": "^1.5.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.7",
+    "@sentry/vite-plugin": "^2.23.0"
+  }
 }
